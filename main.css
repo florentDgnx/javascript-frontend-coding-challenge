@@ -22,7 +22,7 @@ ul {
   width: 100%;
   padding: 5px 0;
   max-height: 200px;
-  overflow-y: scroll;
+  overflow-y: hidden;
 }
 
 .result {
@@ -47,3 +47,5 @@ input {
   padding: 5px;
   border: 1px solid #ccc;
 }
+
+.highlight { background-color:#f0f0f0; }

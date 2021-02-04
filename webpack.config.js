@@ -1,5 +1,6 @@
 const path = require('path');
 const outputPath = path.resolve(__dirname, 'dist');
+const Dotenv = require('dotenv-webpack');
 
 module.exports = {
   entry: {
@@ -33,4 +34,8 @@ module.exports = {
   },
 
   devtool: 'cheap-module-source-map',
+
+  plugins: [
+    new Dotenv()
+  ]
 };

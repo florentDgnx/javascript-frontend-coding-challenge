@@ -2,7 +2,6 @@ import Autocomplete from './Autocomplete';
 import usStates from './us-states';
 import './main.css';
 
-
 // US States
 const data = usStates.map(state => ({
   text: state.name,
